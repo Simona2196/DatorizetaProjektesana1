@@ -1,0 +1,278 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Single_Transistor_AMP-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L BC548 Q1
+U 1 1 591F19E0
+P 5600 3550
+F 0 "Q1" H 5800 3625 50  0000 L CNN
+F 1 "BC548" H 5800 3550 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 5800 3475 50  0001 L CIN
+F 3 "" H 5600 3550 50  0001 L CNN
+	1    5600 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R3
+U 1 1 591F1B24
+P 5700 3050
+F 0 "R3" V 5780 3050 50  0000 C CNN
+F 1 "4,7k" V 5700 3050 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 5630 3050 50  0001 C CNN
+F 3 "" H 5700 3050 50  0001 C CNN
+	1    5700 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 591F1B97
+P 5150 3900
+F 0 "R2" V 5230 3900 50  0000 C CNN
+F 1 "6,8k" V 5150 3900 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 5080 3900 50  0001 C CNN
+F 3 "" H 5150 3900 50  0001 C CNN
+	1    5150 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 591F1BDE
+P 5150 3100
+F 0 "R1" V 5230 3100 50  0000 C CNN
+F 1 "22k" V 5150 3100 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 5080 3100 50  0001 C CNN
+F 3 "" H 5150 3100 50  0001 C CNN
+	1    5150 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R4
+U 1 1 591F1C35
+P 5700 4150
+F 0 "R4" V 5780 4150 50  0000 C CNN
+F 1 "1,8k" V 5700 4150 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 5630 4150 50  0001 C CNN
+F 3 "" H 5700 4150 50  0001 C CNN
+	1    5700 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 4000 5700 3750
+Wire Wire Line
+	5950 4050 5950 3900
+Wire Wire Line
+	5950 3900 5700 3900
+Connection ~ 5700 3900
+Wire Wire Line
+	5700 3200 5700 3350
+Wire Wire Line
+	4900 3550 5400 3550
+Wire Wire Line
+	5150 3250 5150 3750
+Connection ~ 5150 3550
+Wire Wire Line
+	5700 2650 5700 2900
+Wire Wire Line
+	5150 2800 5750 2800
+Wire Wire Line
+	5150 2800 5150 2950
+Wire Wire Line
+	5150 4050 5150 4450
+Wire Wire Line
+	4400 4450 6500 4450
+Wire Wire Line
+	5700 4450 5700 4300
+Wire Wire Line
+	5950 4250 5950 4650
+Connection ~ 5700 4450
+Wire Wire Line
+	6100 3300 5700 3300
+Connection ~ 5700 3300
+$Comp
+L GND #PWR01
+U 1 1 591F1E71
+P 5950 4650
+F 0 "#PWR01" H 5950 4400 50  0001 C CNN
+F 1 "GND" H 5950 4500 50  0000 C CNN
+F 2 "Connectors:1pin" H 5950 4650 50  0001 C CNN
+F 3 "" H 5950 4650 50  0001 C CNN
+	1    5950 4650
+	1    0    0    -1  
+$EndComp
+Connection ~ 5950 4450
+$Comp
+L PWR_FLAG #FLG02
+U 1 1 591F2043
+P 5450 4550
+F 0 "#FLG02" H 5450 4625 50  0001 C CNN
+F 1 "PWR_FLAG" H 5450 4700 50  0000 C CNN
+F 2 "Connectors:1pin" H 5450 4550 50  0001 C CNN
+F 3 "" H 5450 4550 50  0001 C CNN
+	1    5450 4550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5450 4550 5450 4450
+Connection ~ 5450 4450
+$Comp
+L PWR_FLAG #FLG03
+U 1 1 591F20EB
+P 5450 2750
+F 0 "#FLG03" H 5450 2825 50  0001 C CNN
+F 1 "PWR_FLAG" H 5450 2900 50  0000 C CNN
+F 2 "Connectors:1pin" H 5450 2750 50  0001 C CNN
+F 3 "" H 5450 2750 50  0001 C CNN
+	1    5450 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 2750 5450 2800
+Connection ~ 5450 2800
+$Comp
+L +12V #PWR04
+U 1 1 591F2151
+P 5700 2650
+F 0 "#PWR04" H 5700 2500 50  0001 C CNN
+F 1 "+12V" H 5700 2790 50  0000 C CNN
+F 2 "Connectors:1pin" H 5700 2650 50  0001 C CNN
+F 3 "" H 5700 2650 50  0001 C CNN
+	1    5700 2650
+	1    0    0    -1  
+$EndComp
+Connection ~ 5700 2800
+$Comp
+L TEST_2P OUT1
+U 1 1 591F2234
+P 6500 3650
+F 0 "OUT1" H 6500 3550 50  0000 C CNN
+F 1 "Signal" H 6500 3750 50  0000 C CNN
+F 2 "Connectors_Terminal_Blocks:TerminalBlock_Pheonix_MKDS1.5-2pol" H 6500 3650 50  0001 C CNN
+F 3 "" H 6500 3650 50  0001 C CNN
+	1    6500 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L TEST_2P INPUT1
+U 1 1 591F2347
+P 4400 3950
+F 0 "INPUT1" H 4400 4010 50  0000 C CNN
+F 1 "SIGNAL" H 4400 3880 50  0000 C CNN
+F 2 "Connectors_Terminal_Blocks:TerminalBlock_Pheonix_MKDS1.5-2pol" H 4400 3950 50  0001 C CNN
+F 3 "" H 4400 3950 50  0001 C CNN
+	1    4400 3950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4400 3750 4400 3550
+Wire Wire Line
+	4400 3550 4700 3550
+Wire Wire Line
+	4400 4150 4400 4450
+Connection ~ 5150 4450
+Wire Wire Line
+	6500 4450 6500 3850
+Wire Wire Line
+	6500 3450 6500 3300
+Wire Wire Line
+	6500 3300 6300 3300
+$Comp
+L C_Small C1
+U 1 1 591F68E4
+P 4800 3550
+F 0 "C1" H 4810 3620 50  0000 L CNN
+F 1 "20uF" H 4810 3470 50  0000 L CNN
+F 2 "Capacitors_THT:C_Disc_D10.5mm_W5.0mm_P5.00mm" H 4800 3550 50  0001 C CNN
+F 3 "" H 4800 3550 50  0001 C CNN
+	1    4800 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C_Small C3
+U 1 1 591F6A24
+P 6200 3300
+F 0 "C3" H 6210 3370 50  0000 L CNN
+F 1 "20uF" H 6210 3220 50  0000 L CNN
+F 2 "Capacitors_THT:C_Disc_D10.5mm_W5.0mm_P5.00mm" H 6200 3300 50  0001 C CNN
+F 3 "" H 6200 3300 50  0001 C CNN
+	1    6200 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C_Small C2
+U 1 1 591F6AD3
+P 5950 4150
+F 0 "C2" H 5960 4220 50  0000 L CNN
+F 1 "50uF" H 5960 4070 50  0000 L CNN
+F 2 "Capacitors_THT:C_Disc_D10.5mm_W5.0mm_P5.00mm" H 5950 4150 50  0001 C CNN
+F 3 "" H 5950 4150 50  0001 C CNN
+	1    5950 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X01_FEMALE J1
+U 1 1 591F7342
+P 5850 2800
+F 0 "J1" H 5850 2900 50  0000 C CNN
+F 1 "+12V" H 5850 2700 50  0000 C CNN
+F 2 "Connectors:1pin" H 5850 2800 50  0001 C CNN
+F 3 "" H 5850 2800 50  0001 C CNN
+	1    5850 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X01_FEMALE J2
+U 1 1 591F7874
+P 6100 4550
+F 0 "J2" H 6100 4650 50  0000 C CNN
+F 1 "GND" H 6100 4450 50  0000 C CNN
+F 2 "Connectors:1pin" H 6100 4550 50  0001 C CNN
+F 3 "" H 6100 4550 50  0001 C CNN
+	1    6100 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 4550 5950 4550
+Connection ~ 5950 4550
+$EndSCHEMATC
