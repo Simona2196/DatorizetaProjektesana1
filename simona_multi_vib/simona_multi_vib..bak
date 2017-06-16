@@ -1,0 +1,265 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:dual_npn
+LIBS:simona_multi_vib.-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "multi_vib"
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L R R2
+U 1 1 58CA3649
+P 7550 2250
+F 0 "R2" V 7630 2250 50  0000 C CNN
+F 1 "47K" V 7550 2250 50  0000 C CNN
+F 2 "" V 7480 2250 50  0000 C CNN
+F 3 "" H 7550 2250 50  0000 C CNN
+	1    7550 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 58CA3676
+P 6950 2350
+F 0 "R1" V 7030 2350 50  0000 C CNN
+F 1 "470R" V 6950 2350 50  0000 C CNN
+F 2 "" V 6880 2350 50  0000 C CNN
+F 3 "" H 6950 2350 50  0000 C CNN
+	1    6950 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R3
+U 1 1 58CA36A1
+P 8200 2300
+F 0 "R3" V 8280 2300 50  0000 C CNN
+F 1 "47K" V 8200 2300 50  0000 C CNN
+F 2 "" V 8130 2300 50  0000 C CNN
+F 3 "" H 8200 2300 50  0000 C CNN
+	1    8200 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R4
+U 1 1 58CA3714
+P 8900 2300
+F 0 "R4" V 8980 2300 50  0000 C CNN
+F 1 "470R" V 8900 2300 50  0000 C CNN
+F 2 "" V 8830 2300 50  0000 C CNN
+F 3 "" H 8900 2300 50  0000 C CNN
+	1    8900 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D2
+U 1 1 58CA377B
+P 8200 1450
+F 0 "D2" H 8200 1550 50  0000 C CNN
+F 1 "LED" H 8200 1350 50  0000 C CNN
+F 2 "" H 8200 1450 50  0000 C CNN
+F 3 "" H 8200 1450 50  0000 C CNN
+	1    8200 1450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D3
+U 1 1 58CA37FC
+P 8200 1450
+F 0 "D3" H 8200 1550 50  0000 C CNN
+F 1 "LED" H 8200 1350 50  0000 C CNN
+F 2 "" H 8200 1450 50  0000 C CNN
+F 3 "" H 8200 1450 50  0000 C CNN
+	1    8200 1450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D1
+U 1 1 58CA381D
+P 7550 1500
+F 0 "D1" H 7550 1600 50  0000 C CNN
+F 1 "LED" H 7550 1400 50  0000 C CNN
+F 2 "" H 7550 1500 50  0000 C CNN
+F 3 "" H 7550 1500 50  0000 C CNN
+	1    7550 1500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Battery BT1
+U 1 1 58CA3997
+P 5850 2450
+F 0 "BT1" H 5950 2550 50  0000 L CNN
+F 1 "9V" H 5950 2450 50  0000 L CNN
+F 2 "" V 5850 2510 50  0000 C CNN
+F 3 "" V 5850 2510 50  0000 C CNN
+	1    5850 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1_Small C1
+U 1 1 58CA3A4E
+P 7300 2900
+F 0 "C1" H 7310 2970 50  0000 L CNN
+F 1 "CP1_Small" H 7310 2820 50  0000 L CNN
+F 2 "" H 7300 2900 50  0000 C CNN
+F 3 "" H 7300 2900 50  0000 C CNN
+	1    7300 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CP1_Small C2
+U 1 1 58CA3AB9
+P 8600 2900
+F 0 "C2" H 8610 2970 50  0000 L CNN
+F 1 "CP1_Small" H 8610 2820 50  0000 L CNN
+F 2 "" H 8600 2900 50  0000 C CNN
+F 3 "" H 8600 2900 50  0000 C CNN
+	1    8600 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L dual_npn U1
+U 1 1 58CA5055
+P 9650 6450
+F 0 "U1" H 12100 8900 60  0000 C CNN
+F 1 "NST3946DP6T5G" V 11400 8150 60  0000 C CNN
+F 2 "" H 12100 8900 60  0001 C CNN
+F 3 "" H 12100 8900 60  0001 C CNN
+	1    9650 6450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7550 1300 7550 1650
+Wire Wire Line
+	7550 1650 7550 2150
+Wire Wire Line
+	8200 1600 8200 2150
+Wire Wire Line
+	7550 2900 7400 2900
+Wire Wire Line
+	7550 2400 7550 2900
+Wire Wire Line
+	7550 2900 7550 3050
+Wire Wire Line
+	8200 2450 8200 2900
+Wire Wire Line
+	8200 2900 8200 3200
+Wire Wire Line
+	8200 2900 8500 2900
+Wire Wire Line
+	8900 2450 8900 2900
+Wire Wire Line
+	8900 2900 8900 3650
+Wire Wire Line
+	8900 2900 8700 2900
+Wire Wire Line
+	8900 3650 8500 3650
+Connection ~ 8900 2900
+Wire Wire Line
+	8500 4350 8500 5000
+Wire Wire Line
+	8500 5000 6100 5000
+Wire Wire Line
+	6100 5000 6100 3650
+Wire Wire Line
+	6100 3650 6100 3300
+Wire Wire Line
+	6100 3300 5850 3300
+Wire Wire Line
+	5850 3300 5850 2650
+Wire Wire Line
+	7500 3650 6100 3650
+Connection ~ 6100 3650
+Wire Wire Line
+	6900 4300 7500 4300
+Wire Wire Line
+	7500 4300 7500 4350
+Wire Wire Line
+	6950 4300 6950 2900
+Wire Wire Line
+	6950 2900 6950 2500
+Wire Wire Line
+	7200 2900 6950 2900
+Connection ~ 6950 2900
+Wire Wire Line
+	5850 1300 7000 1300
+Wire Wire Line
+	7000 1300 7550 1300
+Wire Wire Line
+	7550 1300 8200 1300
+Wire Wire Line
+	8200 1300 8250 1300
+Wire Wire Line
+	8250 1300 8300 1300
+Wire Wire Line
+	8300 1300 8900 1300
+Wire Wire Line
+	8900 1300 8900 2150
+Wire Wire Line
+	8250 1300 8300 1300
+Connection ~ 8300 1300
+Connection ~ 8250 1300
+Wire Wire Line
+	7000 1300 7000 2200
+Wire Wire Line
+	7000 2200 6950 2200
+Connection ~ 8200 1300
+Connection ~ 7550 1650
+Connection ~ 7550 1300
+Wire Wire Line
+	5850 2250 5850 1300
+Connection ~ 7000 1300
+Wire Wire Line
+	7500 4000 7500 3200
+Wire Wire Line
+	7500 3200 8200 3200
+Connection ~ 8200 2900
+Wire Wire Line
+	7550 3050 8050 3050
+Wire Wire Line
+	8050 3050 8050 3400
+Wire Wire Line
+	8050 3400 8700 3400
+Wire Wire Line
+	8700 3400 8700 4000
+Wire Wire Line
+	8700 4000 8500 4000
+Connection ~ 7550 2900
+$EndSCHEMATC
