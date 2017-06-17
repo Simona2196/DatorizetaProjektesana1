@@ -1,0 +1,32 @@
+Source,C:/Users/Simona/Desktop/Kursa_darbs_Simona_Gelze/Kursa_darbs_Simona_Gelze.sch
+Kicad Rev,Eeschema 4.0.6
+Generated Date,2017.06.16. 19:04:25
+
+Title,Not Set
+Company,Not Set
+Revision,Not Set
+Date Issue,Not Set
+
+Reference,Value,Library,Library Ref
+Jack1,Jack,audio_jack,Jack
+J2,AUDIO_IN,conn,CONN_01X02
+J1,+9V,conn,CONN_01X02
+RV1,5k,device,POT
+C1,100n,device,C_Small
+C2,100n,device,C_Small
+C3,10u,device,CP1_Small
+Q1,BC546,transistors,BC546
+Q2,BC546,transistors,BC546
+Q3,TIP140,transistors,TIP121
+R3,2k7,device,R_Small
+R5,470R,device,R_Small
+R2,10k,device,R_Small
+R4,1k8,device,R_Small
+R6,10k,device,R_Small
+R7,2k7,device,R_Small
+R9,470R,device,R_Small
+R8,1k8,device,R_Small
+R10,220R,device,R_Small
+R1,680R,device,R_Small
+D1,LED_GREEN,device,LED_Small
+J3,Switch,switch,Switch

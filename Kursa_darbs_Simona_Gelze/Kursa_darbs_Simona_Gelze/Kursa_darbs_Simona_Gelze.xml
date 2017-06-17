@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:/Users/Simona/Desktop/Kursa_darbs_Simona_Gelze/Kursa_darbs_Simona_Gelze.sch</source>
+    <date>2017.06.16. 19:05:03</date>
+    <tool>Eeschema 4.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Kursa_darbs_Simona_Gelze.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="Jack1">
+      <value>Jack</value>
+      <footprint>Footprint:AUDIO_JACK</footprint>
+      <libsource lib="audio_jack" part="Jack"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5943E14C</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>AUDIO_IN</value>
+      <footprint>Footprint:audio_input_conn</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5943E2A2</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>+9V</value>
+      <footprint>Connectors_Terminal_Blocks:TerminalBlock_Pheonix_MKDS1.5-2pol</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5943E2FF</tstamp>
+    </comp>
+    <comp ref="RV1">
+      <value>5k</value>
+      <footprint>Potentiometers:Potentiometer_WirePads</footprint>
+      <libsource lib="device" part="POT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5943E360</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>100n</value>
+      <footprint>Capacitors_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5943E41B</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100n</value>
+      <footprint>Capacitors_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5943E4D9</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>10u</value>
+      <footprint>Capacitors_THT:CP_Radial_Tantal_D7.0mm_P5.00mm</footprint>
+      <libsource lib="device" part="CP1_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5943E504</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>BC546</value>
+      <footprint>TO_SOT_Packages_THT:TO-92_Molded_Narrow</footprint>
+      <libsource lib="transistors" part="BC546"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5943E571</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>BC546</value>
+      <footprint>TO_SOT_Packages_THT:TO-92_Molded_Narrow</footprint>
+      <libsource lib="transistors" part="BC546"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5943E5C6</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>TIP140</value>
+      <footprint>TO_SOT_Packages_THT:TO-220_Vertical</footprint>
+      <libsource lib="transistors" part="TIP121"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5943E5FD</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>2k7</value>
+      <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5943E871</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>470R</value>
+      <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5943E8E0</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5943E921</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>1k8</value>
+      <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5943E966</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>10k</value>
+      <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5943EB18</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>2k7</value>
+      <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5943EB5D</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>470R</value>
+      <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5943EBA0</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>1k8</value>
+      <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5943EBE9</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>220R</value>
+      <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5943EC79</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>680R</value>
+      <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59440634</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED_GREEN</value>
+      <footprint>LEDs:LED_D5.0mm</footprint>
+      <libsource lib="device" part="LED_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59440893</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Switch</value>
+      <footprint>Footprint:SW_SPDT</footprint>
+      <libsource lib="switch" part="Switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5943E1E9</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="transistors" part="BC547">
+      <aliases>
+        <alias>BC546</alias>
+        <alias>BC548</alias>
+        <alias>BC549</alias>
+        <alias>BC550</alias>
+      </aliases>
+      <description>45V Vce, 0.1A Ic, NPN, Small Signal Transistor, TO-92</description>
+      <docs>http://www.fairchildsemi.com/ds/BC/BC547.pdf</docs>
+      <footprints>
+        <fp>TO-92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BC547</field>
+        <field name="Footprint">TO_SOT_Packages_THT:TO-92_Molded_Narrow</field>
+      </fields>
+      <pins>
+        <pin num="1" name="C" type="passive"/>
+        <pin num="2" name="B" type="input"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X02">
+      <description>Connector, single row, 01x02, pin header</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X*</fp>
+        <fp>Pin_Header_Angled_1X*</fp>
+        <fp>Socket_Strip_Straight_1X*</fp>
+        <fp>Socket_Strip_Angled_1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_01X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="CP1_Small">
+      <description>Polarised capacitor</description>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP1_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C_Small">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="audio_jack" part="Jack">
+      <description>Jumper, generic, normally closed</description>
+      <fields>
+        <field name="Reference">Jack</field>
+        <field name="Value">Jack</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="input"/>
+        <pin num="3" name="3" type="input"/>
+        <pin num="4" name="4" type="input"/>
+        <pin num="5" name="5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="LED_Small">
+      <description>LED, small symbol</description>
+      <footprints>
+        <fp>LED-*</fp>
+        <fp>LED_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="POT">
+      <description>Potentionmeter</description>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">POT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="switch" part="Switch">
+      <description>DC Barrel Jack</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Switch</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="transistors" part="TIP120">
+      <aliases>
+        <alias>TIP121</alias>
+        <alias>TIP122</alias>
+      </aliases>
+      <description>5A Ic, 60V Vce, Silicon Darlington Power Transistor NPN, TO-220</description>
+      <docs>http://www.fairchildsemi.com/ds/TI/TIP120.pdf</docs>
+      <footprints>
+        <fp>TO-220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">TIP120</field>
+        <field name="Footprint">TO_SOT_Packages_THT:TO-220_Vertical</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
+    </library>
+    <library logical="transistors">
+      <uri>C:\Program Files\KiCad\share\kicad\library\transistors.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>C:\Program Files\KiCad\share\kicad\library\conn.lib</uri>
+    </library>
+    <library logical="audio_jack">
+      <uri>Shemas_elementu_apzimejumi\audio_jack.lib</uri>
+    </library>
+    <library logical="switch">
+      <uri>Shemas_elementu_apzimejumi\switch.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(C2-Pad2)">
+      <node ref="R7" pin="1"/>
+      <node ref="C2" pin="2"/>
+      <node ref="R6" pin="2"/>
+      <node ref="Q2" pin="2"/>
+    </net>
+    <net code="2" name="Net-(C2-Pad1)">
+      <node ref="C2" pin="1"/>
+      <node ref="R4" pin="2"/>
+      <node ref="Q1" pin="1"/>
+    </net>
+    <net code="3" name="Net-(Q2-Pad1)">
+      <node ref="Q2" pin="1"/>
+      <node ref="Q3" pin="1"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="4" name="Net-(C1-Pad2)">
+      <node ref="Q1" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="5" name="Net-(J2-Pad2)">
+      <node ref="RV1" pin="1"/>
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="6" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1"/>
+      <node ref="RV1" pin="2"/>
+    </net>
+    <net code="7" name="Net-(C3-Pad2)">
+      <node ref="Jack1" pin="4"/>
+      <node ref="Jack1" pin="5"/>
+      <node ref="Jack1" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="Jack1" pin="1"/>
+    </net>
+    <net code="8" name="Net-(Q2-Pad3)">
+      <node ref="R9" pin="1"/>
+      <node ref="Q2" pin="3"/>
+    </net>
+    <net code="9" name="Net-(Q1-Pad3)">
+      <node ref="R5" pin="1"/>
+      <node ref="Q1" pin="3"/>
+    </net>
+    <net code="10" name="Net-(C3-Pad1)">
+      <node ref="Q3" pin="3"/>
+      <node ref="R10" pin="1"/>
+      <node ref="C3" pin="1"/>
+    </net>
+    <net code="11" name="Net-(J1-Pad2)">
+      <node ref="J1" pin="2"/>
+      <node ref="J3" pin="1"/>
+      <node ref="J3" pin="3"/>
+    </net>
+    <net code="12" name="Net-(D1-Pad2)">
+      <node ref="R1" pin="2"/>
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="13" name="Net-(J3-Pad2)">
+      <node ref="R6" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="R4" pin="1"/>
+      <node ref="R8" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="Q3" pin="2"/>
+      <node ref="J3" pin="2"/>
+    </net>
+    <net code="14" name="GND">
+      <node ref="R3" pin="2"/>
+      <node ref="D1" pin="1"/>
+      <node ref="R10" pin="2"/>
+      <node ref="R9" pin="2"/>
+      <node ref="R7" pin="2"/>
+      <node ref="R5" pin="2"/>
+      <node ref="Jack1" pin="3"/>
+      <node ref="J2" pin="1"/>
+      <node ref="J1" pin="1"/>
+      <node ref="RV1" pin="3"/>
+    </net>
+  </nets>
+</export>
